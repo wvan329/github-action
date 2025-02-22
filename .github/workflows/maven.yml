@@ -15,7 +15,7 @@ jobs:
   #只有一个job：build
   build:
     #action运行的虚拟环境：这个job向github申请了最新的ubuntu系统的虚拟机，用来运行job
-    runs-on: centos-latest
+    runs-on: ubuntu-latest
     #job的所有步骤
     steps:
       #uses使用action：checkout，这是一个最常用的别人写好的aciton。
