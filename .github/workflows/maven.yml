@@ -43,4 +43,5 @@ jobs:
           TARGET: '/root/springboot/action.jar'
           SCRIPT_AFTER: |
             pkill -f 'java -jar /root/springboot/action.jar'
+#             > /dev/null 2>&1 表示所有的丢弃所有的输出和错误信息，&表示在后台运行
             nohup java -jar /root/springboot/action.jar > /dev/null 2>&1 &
