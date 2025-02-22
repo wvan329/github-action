@@ -41,6 +41,6 @@ jobs:
           REMOTE_HOST: 120.27.135.73
           REMOTE_USER: root
           TARGET: '/root/springboot/action.jar'
-          SCRIPT_AFTER: |
+          SCRIPT_AFTER:
             pkill -f 'java -jar /root/springboot/action.jar'
             nohup java -jar /root/springboot/action.jar > /dev/null 2>&1 &
