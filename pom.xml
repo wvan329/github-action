@@ -60,7 +60,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.wgk.GithubActionApplication</mainClass>
-                    <skip>true</skip>
+<!--                    <skip>true</skip>-->
                 </configuration>
                 <executions>
                     <execution>
